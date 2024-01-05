@@ -17,7 +17,7 @@ bot.on("/disney", msg => {
     const currentWorkingDir = process.cwd();
 
     // Construa o caminho completo para o arquivo.txt
-    const filePath = path.join(currentWorkingDir, "src", "arquivo.txt");
+    const filePath = path.join(currentWorkingDir, "src", "disney.txt");
 
     try {
         // Lê o conteúdo do arquivo.txt de forma síncrona (pode ser assíncrona, dependendo dos requisitos)
